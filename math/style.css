@@ -1,0 +1,68 @@
+h1 {
+    font-family: Verdana;
+}
+
+body {
+    background-color: darkgray;
+    margin: 0px;
+}
+
+#header {
+    width: 1080px;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+
+#mcont {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar {
+    height: 100%;
+    width: 185px;
+    float: left;
+}
+
+#container {
+    width: 1024px;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#container iframe {
+    border: none;
+    height: 576px;
+    width: 1024px;
+}
+
+.butt {
+    margin-top: 35px;
+}
+
+.butt a {
+    padding: 15px;
+    border-radius: 30px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.butt a:hover {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.butt a:active {
+    height: auto;
+    width: auto;
+    background-color: rgba(123,123,123,0.5);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>Methemethics</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125812764-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-125812764-1');
+	</script>
+</head>
+
+<body>
+	<div id="mcont">
+		<div id="sidebar">
+			<div class="butt">
+				<a href="https://gerbagel.github.io/siteiguess/">OG crab site</a>
+			</div>
+			<div class="butt">
+				<a href="https://gerbagel.github.io/siteiguess/rick/">Rick-Roll</a>
+			</div>
+			<div class="butt">
+				<a href="https://gerbagel.github.io/siteiguess/weeb/">Weeb site</a>
+			</div>
+			<div class="butt">
+				<a href="https://gerbagel.github.io/siteiguess/lofiradio/">LoFi Hip Hop Radio</a>
+			</div>
+			<div class="butt">
+				<a href="https://gerbagel.github.io/siteiguess/africa/">Africa by Toto</a>
+			</div>
+			<div class="butt">
+				<a href="https://gerbagel.github.io/siteiguess/index/">Index</a>
+			</div>
+		</div>
+		<div id="header">
+			<h1>Math Site</h1>
+		</div>
+		<div id="container">
+			<h2>PQ formula</h2>
+			<input id="p" type="text" />
+			<input id="q" type="text" />
+			<input type="submit" onClick="pq();"><br />
+			x1 = <p id="result1"></p>
+			x2 = <p id="result2"></p>
+			<script>
+				function pq() {
+					var q = parseInt(document.getElementById('q').value);
+					var p = parseInt(document.getElementById('p').value);
+					var d = p * p / 4 - q;
+					var result1 = -p/2 + Math.sqrt(d);
+					var result2 = -p/2 - Math.sqrt(d);
+					document.getElementById('result1').innerHTML = result1;
+					document.getElementById('result2').innerHTML = result2;
+				}
+			</script>
+		</div>
+	</div>
+</body>
+</html>

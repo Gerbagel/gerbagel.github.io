@@ -1,0 +1,64 @@
+h1 {
+    font-family: Verdana;
+}
+
+body {
+    background-color: white;
+}
+
+#header {
+    width: 1095px;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+
+#mcont {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    width: 1095px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about p {}
+
+#sidebar {
+    width: 170px;
+    height: 100%;
+    float: left;
+}
+
+#container {
+    height: auto;
+
+}
+
+.butt {
+    margin-top: 35px;
+}
+
+.butt a {
+    padding: 15px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.butt a:hover {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.butt a:active {
+    height: auto;
+    width: auto;
+    background-color: rgba(123, 123, 123, 0.5);
+}

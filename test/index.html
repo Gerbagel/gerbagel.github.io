@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Redirect</title>
+</head>
+
+<body>
+	<script id="script">
+		function removePass() {
+            var elem = document.getElementById("script");
+            elem.parentNode.removeChild(elem);
+            return false;
+        }
+		pass = prompt("Password pls");
+		if(pass == "kevinisverygay") {
+			window.location.href = "test/";
+			removePass();
+		}else {
+			document.write("<h1>Wrong password, try again</h1>");
+			window.location.href = "error/";
+			removePass();
+		}
+	</script>
+</body>
+</html>
