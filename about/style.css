@@ -35,7 +35,10 @@ body {
 
 #container {
     height: auto;
+}
 
+#about img {
+	align-content: center;
 }
 
 .butt {
