@@ -45,14 +45,11 @@
             <h1>Africa by Toto</h1>
         </div>
         <div id="container">
-			<script>
+			<script id="script">
 				function alt() {
-					var x = document.getElementById("alternative").innerHTML;
-					
-					if (x = '<iframe id="alternative" src="https://www.youtube.com/embed/FTQbiNvZqaY?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>') {
-						document.write( '<iframe src="https://www.youtube.com/embed/_YOcjiccp28?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+						document.getElementById('alternative').innerHTML = '<iframe id="alternative" src="https://www.youtube.com/embed/_YOcjiccp28?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+						document.getElementById('script').innerHTML = "<script id='script'>function alt() {document.getElementById('alternative').innerHTML = '<iframe id='alternative' src='https://www.youtube.com/embed/FTQbiNvZqaY?autoplay=1' allow='autoplay; encrypted-media' allowfullscreen></iframe>"}
 					}
-				}
 			</script>
             <iframe id="alternative" src="https://www.youtube.com/embed/FTQbiNvZqaY?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <button onClick="">Switch</button>
