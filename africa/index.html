@@ -47,7 +47,14 @@
         <div id="container">
 			<script id="script">
 				function alt() {
-					document.getElementById("alternative").src = "https://www.youtube.com/embed/_YOcjiccp28?autoplay=1";
+					if (document.getElementById("alternative").src == "https://www.youtube.com/embed/_YOcjiccp28?autoplay=1") {
+						document.getElementById("alternative").src = "https://www.youtube.com/embed/FTQbiNvZqaY?autoplay=1";
+					}else if (document.getElementById("alternative").src == "https://www.youtube.com/embed/FTQbiNvZqaY?autoplay=1"){
+						document.getElementById("alternative").src = "https://www.youtube.com/embed/_YOcjiccp28?autoplay=1";
+					}else{
+						document.write("<p>Error, reload page.</p>");
+					}
+					
 				}
 			</script>
             <iframe id="alternative" src="https://www.youtube.com/embed/FTQbiNvZqaY?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
