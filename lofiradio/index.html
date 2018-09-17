@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="lofi.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>LoFi Hip Hop Radio</title>
+    <title id="title">LoFi Hip Hop Radio</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125812764-1"></script>
 	<script>
@@ -41,7 +41,19 @@
             <h1>Get fucking relaxed</h1>
         </div>
         <div id="container">
-            <iframe src="https://www.youtube.com/embed/hHW1oY26kxQ?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="vid" src="https://www.youtube.com/embed/hHW1oY26kxQ?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<script>
+				function turn() {
+					if (document.getElementById("vid").src == "https://www.youtube.com/embed/hHW1oY26kxQ?autoplay=1") {
+						document.getElementById("vid").src = "https://www.youtube.com/embed/2ccaHpy5Ewo?autoplay=1";
+						document.getElementById("title").innerHTML = "Rainy Jazz Radio";
+					}else if (document.getElementById("vid").src == "https://www.youtube.com/embed/2ccaHpy5Ewo?autoplay=1") {
+						document.getElementById("vid").src = "https://www.youtube.com/embed/hHW1oY26kxQ?autoplay=1";
+						document.getElementById("title").innerHTML = "LoFi Hip Hop Radio";
+					}
+				}
+			</script>
+			<button onClick="turn()">Switch</button>
         </div>
     </div>
 </body>
