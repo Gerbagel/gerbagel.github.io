@@ -70,3 +70,24 @@ a:hover {
     width: auto;
     background-color: rgba(123, 123, 123, 0.5);
 }
+
+.butt button {
+	padding: 15px;
+    border-radius: 30px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.butt button:hover {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.butt button:active {
+    height: auto;
+    width: auto;
+    background-color: rgba(123,123,123,0.5);
+}
