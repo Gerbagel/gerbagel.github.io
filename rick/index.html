@@ -46,8 +46,10 @@
 				function alt() {
 					if (document.getElementById("vid").src == "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1") {
 						document.getElementById("vid").src = "https://www.youtube.com/embed/lXMskKTw3Bc?autoplay=1";
-					}else if (document.getElementById("vid") == "https://www.youtube.com/embed/lXMskKTw3Bc?autoplay=1") {
+					}else if (document.getElementById("vid").src == "https://www.youtube.com/embed/lXMskKTw3Bc?autoplay=1") {
 						document.getElementById("vid").src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+					}else {
+						document.write("<p>Error, reload page</p>");
 					}
 				}
 			</script>
