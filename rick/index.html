@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="icon" href="rick.ico" type="image/x-icon">
-    <title>Get Rick-Rolled</title>
+    <title id="title">Get Rick-Rolled</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125812764-1"></script>
 	<script>
@@ -41,9 +41,20 @@
             <h1>Get fucking Rick-rolled</h1>
         </div>
         <div id="container">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay;" allowfullscreen></iframe>
+            <iframe id="vid" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay;" allowfullscreen></iframe>
+			<script>
+				function alt() {
+					if (document.getElementById("vid").src == "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1") {
+						document.getElementById("vid").src = "https://www.youtube.com/embed/lXMskKTw3Bc?autoplay=1";
+					}else if (document.getElementById("vid") == "https://www.youtube.com/embed/lXMskKTw3Bc?autoplay=1") {
+						document.getElementById("vid").src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+					}
+				}
+			</script>
+			<button onClick="alt()">Switch</button>
         </div>
     </div>
 </body>
 
 </html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lXMskKTw3Bc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
