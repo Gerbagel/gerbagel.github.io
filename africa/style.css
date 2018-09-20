@@ -12,10 +12,11 @@ a:hover {
 }
 
 #header {
-    width: 1080px;
+    width: 100%;
     height: 100px;
     text-align: center;
     float: left;
+	background-color: rgba(255,255,255,0.3);
 }
 
 #mcont {
