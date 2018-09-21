@@ -10,12 +10,12 @@
 	<script id="script">
 		var pass = document.getElementById("pass").value;
 		var input = document.getElementById("pass");
-		input.addEventListener("keyup", function(event)){
+		input.addEventListener("keyup", function(event){
 			event.preventDefault();
 			if (event.keyCode === 13) {
 				document.getElementById("submit").click;
 			}
-		}
+		});
 		
 		function login() {
 			if (pass === "gayisok") {
@@ -25,10 +25,9 @@
 				window.location.href = "error/";
 			}
 		}
-		if ()
 	</script>
 	<div id="mcont">
-		<input id="pass" type="text" />
+		<input id="pass" type="password" />
 		<div class="butt">
 			<input id="submit" type="submit" onClick="login();" />
 		</div>
