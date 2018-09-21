@@ -14,12 +14,13 @@
 			</div>
 			<script id="script">
 				pass = document.getElementById("pass");
-				
-				if (pass == "gayiswrong") {
-					window.location.href = "test/";
-				}
-				else {
-					window.location.href = "error/";
+				function login() {
+					if (pass == "gayiswrong") {
+						window.location.href = "test/";
+					}
+					else {
+						window.location.href = "error/";
+					}
 				}
 			</script>
 	</div>
