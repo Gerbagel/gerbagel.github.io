@@ -7,31 +7,31 @@
 </head>
 
 <body>
+	<script id="script">
+		var pass = document.getElementById("pass").value;
+		var input = document.getElementById("pass");
+		input.addEventListener("keyup", function(event)){
+			event.preventDefault();
+			if (event.keyCode === 13) {
+				document.getElementById("submit").click;
+			}
+		}
+		
+		function login() {
+			if (pass === "gayisok") {
+				window.location.href = "test/";
+			}
+			else {
+				window.location.href = "error/";
+			}
+		}
+		if ()
+	</script>
 	<div id="mcont">
 		<input id="pass" type="text" />
 		<div class="butt">
 			<input id="submit" type="submit" onClick="login();" />
 		</div>
-		<script id="script">
-			var pass = document.getElementById("pass").value;
-			var input = document.getElementById("pass");
-			input.addEventListener("keyup", function(event)){
-				event.preventDefault();
-				if (event.keyCode === 13) {
-					document.getElementById("submit").click;
-				}
-			}
-			
-			function login() {
-				if (pass === "gayisok") {
-					window.location.href = "test/";
-				}
-				else {
-					window.location.href = "error/";
-				}
-			}
-			if ()
-		</script>
 	</div>
 </body>
 </html>
