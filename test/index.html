@@ -8,21 +8,23 @@
 
 <body>
 	<div id="mcont">
+		<form>
 			<input id="pass" type="text" />
 			<div class="butt">
-				<input onClick="login" type="submit"/>
+				<input type="submit" onClick="login" />
 			</div>
-			<script id="script">
-				pass = document.getElementById("pass");
-				function login() {
-					if (pass == "gayiswrong") {
-						window.location.href = "test/";
-					}
-					else {
-						window.location.href = "error/";
-					}
+		</form>
+		<script id="script">
+			pass = document.getElementById("pass");
+			function login() {
+				if (pass == "gayiswrong") {
+					window.location.href = "test/";
 				}
-			</script>
+				else {
+					window.location.href = "error/";
+				}
+			}
+		</script>
 	</div>
 </body>
 </html>
