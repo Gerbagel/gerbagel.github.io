@@ -70,6 +70,7 @@ body {
     height: auto;
     width: auto;
     background-color: rgba(123,123,123,0.5);
+	color: blue;
 }
 
 .butt a:visited {
