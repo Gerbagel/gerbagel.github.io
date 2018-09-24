@@ -55,17 +55,22 @@ body {
     border-style:solid;
     border-width: 1px;
     border-color: black;
+	text-decoration: none;
 }
 
 .butt a:hover {
     height: auto;
     width: auto;
     background-color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .butt a:active {
     height: auto;
     width: auto;
     background-color: rgba(123,123,123,0.5);
+}
+
+.butt a:visited {
+	color: blue;
 }
