@@ -57,6 +57,8 @@ a:hover {
     border-style: solid;
     border-width: 1px;
     border-color: black;
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .butt button {

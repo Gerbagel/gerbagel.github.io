@@ -50,22 +50,11 @@ body {
 .butt a {
     padding: 15px;
     border-radius: 30px;
-    border-style:solid;
+    border-style: solid;
     border-width: 1px;
     border-color: black;
-}
-
-.butt a:hover {
-    height: auto;
-    width: auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
-}
-
-.butt a:active {
-    height: auto;
-    width: auto;
-    background-color: rgba(123,123,123,0.5);
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .butt button {

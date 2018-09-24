@@ -49,6 +49,7 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .butt a:hover {
