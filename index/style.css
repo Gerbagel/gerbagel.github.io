@@ -32,11 +32,20 @@ body {
 }
 
 .list a {
-    
+    color: blue;
+	text-decoration: none;
+}
+
+.list a:visited {
+	color: blue;
 }
 
 .list a:hover {
-    text-decoration: none;
+	text-decoration: underline;
+}
+
+.list a:active {
+	color: blue;
 }
 
 .butt {
