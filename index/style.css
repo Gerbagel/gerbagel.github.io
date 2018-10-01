@@ -32,21 +32,21 @@ body {
 }
 
 .list a {
-	color: rgba(31,0,255,0.55);
+    color: blue;
 	text-decoration: none;
 }
 
 .list a:visited {
-	color: rgba(31,0,255,0.55);
+	color: blue;
 }
 
 .list a:hover {
 	text-decoration: underline;
-	color: blue;
+	color: rgba(31,0,255,0.55);
 }
 
 .list a:active {
-	color: rgba(31,0,255,0.55);
+	color: blue;
 }
 
 .butt {
