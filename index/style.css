@@ -79,3 +79,13 @@ body {
 .butt a:visited {
 	color: blue;
 }
+
+@media only screen and (max-width: 360px) {
+	#header {
+		text-align: center;
+	}
+	
+	body {
+		text-align: center;
+	}
+}
