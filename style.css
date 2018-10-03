@@ -83,3 +83,9 @@ body {
 .butt a:visited {
 	color: blue;
 }
+
+@media only screen and (max-width: 360px) {
+	body {
+		background-color: aqua;
+	}
+}
