@@ -85,7 +85,31 @@ body {
 		text-align: center;
 	}
 	
+	#container {
+		width: 360px;
+		height: 350px;
+		overflow: auto;
+	}
+	
 	body {
 		text-align: center;
+	}
+	
+	.list {
+		margin: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		border: rgba(168,168,168,0.5) solid 1px;
+		padding: 12px;
+		border-radius: 10px;
+		font-size: 13px;
+		width: 200px;
+	}
+	
+	.list a {
+	}
+	
+	.list:hover {
+		background-color: rgba(178,178,178,0.5);
 	}
 }
