@@ -85,16 +85,16 @@ body {
 }
 
 @media only screen and (max-width: 360px) {
-	body {
-		background-color: aqua;
-	}
-	
 	#container iframe {
 		height: 200px;
 		width: 200px;
 	}
 	
 	#mcont {
+		display: block;
+	}
+	
+	#header {
 		display: block;
 	}
 }
