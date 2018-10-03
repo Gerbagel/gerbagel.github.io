@@ -19,6 +19,8 @@ body {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+	display: flex;
+	float: none;
 }
 
 #sidebar {
@@ -82,4 +84,48 @@ body {
 
 .butt a:visited {
 	color: blue;
+}
+
+@media only screen and (max-width: 360px) {
+	#container {
+		width: auto;
+    	height: auto;
+    	margin-top: 20px;
+    	margin-left: 52px;
+    	margin-right: 0px;
+		float: left;
+		display: block;
+	}
+	
+	#container iframe {
+		height: 144px;
+		width: 256px;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#mcont {
+		text-align: center;
+		float: left;
+		display: block;
+		width: 360px;
+	}
+	
+	#header {
+		display: block;
+		margin-top: 0px;
+	}
+	
+	#sidebar {
+		text-align:center;
+		display: block;
+		height: 320px;
+		width: auto;
+		overflow: auto;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
