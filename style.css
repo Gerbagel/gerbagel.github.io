@@ -88,7 +88,7 @@ body {
 
 @media only screen and (max-width: 360px) {
 	#container {
-		width: 360px;
+		width: 256px;
     	height: auto;
     	text-align: center;
     	margin-top: 20px;
@@ -101,6 +101,7 @@ body {
 	#container iframe {
 		height: 144px;
 		width: 256px;
+		float: none;
 	}
 	
 	#mcont {
@@ -115,6 +116,11 @@ body {
 	}
 	
 	#sidebar {
+		text-align:center;
 		display: block;
+		height: 320px;
+		overflow: auto;
+		float: none;
+		margin-left: 90px;
 	}
 }
