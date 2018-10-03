@@ -91,7 +91,7 @@ body {
 		width: auto;
     	height: auto;
     	margin-top: 20px;
-    	margin-left: 0px;
+    	margin-left: 52px;
     	margin-right: 0px;
 		float: left;
 		display: block;
@@ -121,6 +121,6 @@ body {
 		height: 320px;
 		overflow: auto;
 		float: none;
-		margin-left: 90px;
+		margin-left: 87.5px;
 	}
 }
