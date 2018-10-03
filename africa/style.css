@@ -23,6 +23,7 @@ a:hover {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+	overflow: auto;
 }
 
 #sidebar {
