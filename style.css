@@ -102,6 +102,8 @@ body {
 		width: 256px;
 		float: left;
 		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	#mcont {
@@ -120,8 +122,10 @@ body {
 		text-align:center;
 		display: block;
 		height: 320px;
+		width: auto;
 		overflow: auto;
 		float: none;
-		margin-left: 87.5px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
