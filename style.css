@@ -19,6 +19,8 @@ body {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+	display: flex;
+	float: none;
 }
 
 #sidebar {
@@ -86,21 +88,33 @@ body {
 
 @media only screen and (max-width: 360px) {
 	#container {
-		width: auto;
+		width: 360px;
+    	height: auto;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-left: auto;
+    	margin-right: auto;
+		float: none;
+		display: block;
 	}
 	
 	#container iframe {
-		height: 200px;
-		width: 200px;
-		float: none;
+		height: 144px;
+		width: 256px;
 	}
 	
 	#mcont {
 		text-align: center;
-		display: block;
+		float: none;
+		display: flex;
 	}
 	
 	#header {
+		display: block;
+		float: left;
+	}
+	
+	#sidebar {
 		display: block;
 	}
 }
