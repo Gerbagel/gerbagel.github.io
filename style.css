@@ -90,18 +90,18 @@ body {
 	#container {
 		width: auto;
     	height: auto;
-    	text-align: center;
     	margin-top: 20px;
     	margin-left: 0px;
     	margin-right: 0px;
-		float: none;
+		float: left;
 		display: block;
 	}
 	
 	#container iframe {
 		height: 144px;
 		width: 256px;
-		float: none;
+		float: left;
+		display: block;
 	}
 	
 	#mcont {
@@ -112,7 +112,7 @@ body {
 	
 	#header {
 		display: block;
-		float: left;
+		margin-top: 0px;
 	}
 	
 	#sidebar {
