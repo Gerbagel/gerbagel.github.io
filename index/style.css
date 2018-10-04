@@ -33,6 +33,7 @@ body {
 .list a {
     color: blue;
 	text-decoration: none;
+	transition: text-decoration 0.3s, color 0.3s;
 }
 
 .list a:visited {
@@ -42,6 +43,7 @@ body {
 .list a:hover {
 	text-decoration: underline;
 	color: rgba(31,0,255,0.55);
+	transition: text-decoration 0.3s, color 0.3s;
 }
 
 .list a:active {
