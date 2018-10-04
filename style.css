@@ -1,6 +1,11 @@
-@keyframes name {
+@-webkit-keyframes on {
 	0% {}
 	100% {background-color: rgba(255, 255, 255, 0.5); padding: 20px;}
+}
+
+@-webkit-keyframes off {
+	from {background-color: rgba(255, 255, 255, 0.5); padding: 20px;}
+	to {}
 }
 
 h1 {
@@ -61,6 +66,7 @@ body {
     border-width: 1px;
     border-color: black;
 	text-decoration: none;
+	animation: off 0.3s both;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
@@ -75,7 +81,7 @@ body {
 .butt a:hover {
     height: auto;
     width: auto;
-	animation: name 0.3s both;
+	animation: on 0.3s both;
     text-decoration: underline;
 }
 
