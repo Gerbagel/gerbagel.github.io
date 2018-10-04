@@ -50,6 +50,7 @@ body {
     border-width: 1px;
     border-color: black;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	transition: padding 0.3s, background-color 0.3s;
 }
 
 .butt a:hover {
@@ -57,6 +58,7 @@ body {
     width: auto;
     background-color: rgba(255, 255, 255, 0.5);
     text-decoration: underline;
+	transition: padding 0.3s, background-color 0.3s;
 }
 
 .butt a:active {
