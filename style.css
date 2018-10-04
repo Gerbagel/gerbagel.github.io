@@ -98,8 +98,8 @@ body {
 	}
 	
 	#container iframe {
-		height: 198px;
-		width: 352px;
+		height: 144px;
+		width: 256px;
 		float: left;
 		display: block;
 		margin-left: auto;
