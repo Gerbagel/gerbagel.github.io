@@ -1,3 +1,8 @@
+@keyframes name {
+	0% {}
+	100% {background-color: rgba(255, 255, 255, 0.5); padding: 20px;}
+}
+
 h1 {
     font-family: Verdana;
 }
@@ -70,9 +75,8 @@ body {
 .butt a:hover {
     height: auto;
     width: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+	animation: name 0.3s both;
     text-decoration: underline;
-	padding: 20px;
 }
 
 .butt a:active {
