@@ -1,13 +1,17 @@
 <html>
 	<body>
 		<?php
-			if ($_POST["pass"] = "kevinisgay")
+			$pass = strip_tags($_POST["pass"]);
+			if ($_POST["pass"] = "kevinisgay") {
 				echo '<script type="text/javascript">
 							window.location = "https://gerbagel.github.io/siteisuppose/test/test/"
 					  </script>';
-			else
+				die();
+			}
+			else {
 				echo "<h1>Suck my ass senpai</h1>";
-			
+				die();
+			}
 		?>
 	</body>
 </html>
