@@ -4,7 +4,9 @@
 		<?
 			$pass = $_POST["pass"];
 			if ($pass = "kevinisgay")
-				header("Location: https://gerbagel.github.io/siteisuppose/test/test/")
+				echo '<script type="text/javascript">
+							window.location = "https://gerbagel.github.io/siteisuppose/test/test/"
+					  </script>';
 		?>
 	</body>
 </html>
