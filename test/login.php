@@ -2,7 +2,7 @@
 	<body>
 		<?php
 			$pass = strip_tags($_POST["pass"]);
-			if ($_POST["pass"] = "kevinisgay") {
+			if ($pass == "kevinisgay") {
 				echo '<script type="text/javascript">
 							window.location = "https://gerbagel.github.io/siteisuppose/test/test/"
 					  </script>';
