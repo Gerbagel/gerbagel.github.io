@@ -1,41 +1,28 @@
-@-webkit-keyframes on {
-	0% {}
-	100% {background-color: rgba(255, 255, 255, 0.5); padding: 20px;}
-}
-
-@-webkit-keyframes off {
-	from {background-color: rgba(255, 255, 255, 0.5); padding: 20px;}
-	to {}
-}
-
 h1 {
     font-family: Verdana;
 }
 
 body {
-    background-color: hotpink;
+    background-color: mediumpurple;
     margin: 0px;
 }
 
 #header {
     width: 100%;
     height: 100px;
-    float: left;
     text-align: center;
-    background-color: rgba(255,255,255,0.3);
-	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    float: left;
+	background-color: rgba(255,255,255,0.3);
 }
 
 #mcont {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
-	display: block;
-	float: none;
 }
 
 #sidebar {
-    height: 50px;
+    height: 100%;
     width: 185px;
     float: left;
 }
@@ -82,10 +69,10 @@ body {
 .butt a:hover {
     height: auto;
     width: auto;
-	background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
 	padding: 20px;
 	transition: padding 0.3s, background-color 0.3s;
-    text-decoration: underline;
 }
 
 .butt a:active {
@@ -99,7 +86,7 @@ body {
 	color: blue;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
 	#container {
 		width: auto;
     	height: auto;
@@ -113,7 +100,7 @@ body {
 	#container iframe {
 		height: 144px;
 		width: 256px;
-		float: left;
+		float: none;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -121,8 +108,8 @@ body {
 	
 	#mcont {
 		text-align: center;
-		float: none;
-		display: flex;
+		float: left;
+		display: block;
 		width: 360px;
 	}
 	
