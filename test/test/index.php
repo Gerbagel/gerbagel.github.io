@@ -1,3 +1,10 @@
+<?
+	$pass = $_POST["pass"];
+	if($pass != "kevinisgay" or $pass == " ") {
+		header("Locaton: http://jbprogrammering.se/te17/leon/test/");
+	}
+?>
+
 <!DOCTYPE html>
 
 <html>
