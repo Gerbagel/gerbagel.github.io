@@ -61,21 +61,21 @@
 	        </div>
 	        <div id="container">
 	            <iframe id="vid" src="https://www.youtube.com/embed/KZUnOHcLN0k?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	        </div>
-			<script type="text/javascript">
-				function alt() {
-					if (document.getElementById("vid").src == "https://www.youtube.com/embed/KZUnOHcLN0k?autoplay=1") {
-						document.getElementById("vid").src = "https://www.youtube.com/embed/Vk8UEWHYfEg?autoplay=1";
-					}else if (document.getElementById("vid").src == "https://www.youtube.com/embed/Vk8UEWHYfEg?autoplay=1") {
-						document.getElementById("vid").src = "https://www.youtube.com/embed/KZUnOHcLN0k?autoplay=1";
-					}else {
-						document.write("<p>Error, reload page</p>");
+				<script type="text/javascript">
+					function alt() {
+						if (document.getElementById("vid").src == "https://www.youtube.com/embed/KZUnOHcLN0k?autoplay=1") {
+							document.getElementById("vid").src = "https://www.youtube.com/embed/Vk8UEWHYfEg?autoplay=1";
+						}else if (document.getElementById("vid").src == "https://www.youtube.com/embed/Vk8UEWHYfEg?autoplay=1") {
+							document.getElementById("vid").src = "https://www.youtube.com/embed/KZUnOHcLN0k?autoplay=1";
+						}else {
+							document.write("<p>Error, reload page</p>");
+						}
 					}
-				}
-			</script>
-			<div class="butt">
-				<button onClick="alt()">Switch</button>
-			</div>
+				</script>
+				<div class="butt">
+					<button onClick="alt()">Switch</button>
+				</div>
+	        </div>
 	    </div>
 	</body>
 </html>
