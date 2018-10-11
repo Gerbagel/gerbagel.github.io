@@ -91,8 +91,10 @@ body {
 .butt a:active {
     height: auto;
     width: auto;
+	padding: 15px;
     background-color: rgba(123,123,123,0.5);
 	color: blue;
+	transition: background-color 0.1s, padding 0.1s;
 }
 
 .butt a:visited {
