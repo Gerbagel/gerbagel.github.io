@@ -84,8 +84,9 @@ body {
     width: auto;
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 20px;
-	transition: padding 0.3s, background-color 0.3s;
+	transition: padding 0.3s, background-color 0.3s, box-shadow 0.3s;
     text-decoration: underline;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 .butt a:active {
