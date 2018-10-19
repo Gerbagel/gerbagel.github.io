@@ -3,20 +3,16 @@ h1 {
 }
 
 body {
-    background-color: darkgoldenrod;
+    background-color: hotpink;
     margin: 0px;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 #header {
     width: 100%;
     height: 100px;
-    text-align: center;
     float: left;
-	background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
 }
 
@@ -24,10 +20,12 @@ a:hover {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+	display: block;
+	float: none;
 }
 
 #sidebar {
-    height: 100%;
+    height: 50px;
     width: 185px;
     float: left;
 }
@@ -40,7 +38,6 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     float: left;
-	overflow: auto;
 }
 
 #container iframe {
@@ -59,13 +56,13 @@ a:hover {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    text-decoration: none;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
 	transition: padding 0.3s, background-color 0.3s;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .butt button {
-    padding: 15px;
+	padding: 15px;
     border-radius: 30px;
     border-style:solid;
     border-width: 1px;
@@ -75,27 +72,27 @@ a:hover {
 .butt a:hover {
     height: auto;
     width: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	transition: padding 0.3s, background-color 0.3s, box-shadow 0.3s;
     text-decoration: underline;
-    padding: 20px;
-	transition: padding 0.3s, background-color 0.3s;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
-
 
 .butt a:active {
     height: auto;
     width: auto;
+	padding: 15px;
     background-color: rgba(123,123,123,0.5);
 	color: blue;
-	padding: 15px;
-	transition: padding 0.1s, background-color 0.1s;
+	transition: background-color 0.1s, padding 0.1s;
 }
 
 .butt a:visited {
 	color: blue;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
 	#container {
 		width: auto;
     	height: auto;
@@ -109,7 +106,7 @@ a:hover {
 	#container iframe {
 		height: 144px;
 		width: 256px;
-		float: none;
+		float: left;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -117,8 +114,8 @@ a:hover {
 	
 	#mcont {
 		text-align: center;
-		float: left;
-		display: block;
+		float: none;
+		display: flex;
 		width: 360px;
 	}
 	
