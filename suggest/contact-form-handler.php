@@ -1,33 +1,58 @@
 <?php
-$errors = '';
-$myemail = 'gerbagel@hotmail.com';//<-----Put Your email address here.
-if(empty($_POST['name'])  ||
-   empty($_POST['email']) ||
-   empty($_POST['message']))
-{
-    $errors .= "\n Error: all fields are required";
-}
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$message = $_POST['message'];
-if (!preg_match(
-"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",
-$email_address))
-{
-    $errors .= "\n Error: Invalid email address";
-}
-
-if( empty($errors))
-{
-$to = $myemail;
-$email_subject = "Contact form submission: $name";
-$email_body = "You have received a new message. ".
-" Here are the details:\n Name: $name \n ".
-"Email: $email_address\n Message \n $message";
-$headers = "From: $myemail\n";
-$headers .= "Reply-To: $email_address";
-mail($to,$email_subject,$email_body,$headers);
-//redirect to the 'thank you' page
-header('Location: index.html');
-}
+$emailBody = $_POST["emailBody"];
+$subject = "Suggestion";
+$toEmail = "gerbagel@hotmail.com";
+$fromEmail = $_POST["email"];
+mail($toEmail, $subject, $emailBody, $fromEmail);
 ?>
+<!doctype html>
+<html>
+	<head>
+		<title>Thank you!</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	
+	<body>
+		<div id="header">
+			<h1>Thank you for your input!</h1>
+		</div>
+		<div id="mcont">
+			<div id="sidebar">
+				<div class="butt">
+                	<a href="https://gerbagel.github.io/siteisuppose/">OG Crab site</a>
+            	</div>
+				<div class="butt">
+					<a href="https://gerbagel.github.io/siteisuppose/rick/">Rick-Roll</a>
+				</div>
+            	<div class="butt">
+            	    <a href="http://gerbagel.github.io/siteisuppose/weeb/">Weeb site</a>
+            	</div>
+            	<div class="butt">
+            	    <a href="http://gerbagel.github.io/siteisuppose/lofiradio/">LoFi Hip Hop Radio</a>
+            	</div>
+				<div class="butt">
+					<a href="https://gerbagel.github.io/siteisuppose/africa/">Africa by Toto</a>
+				</div>
+				<div class="butt">
+					<a href="https://gerbagel.github.io/siteisuppose/downunder/">Upside Down</a>
+				</div>
+				<div class="butt">
+					<a href="https://gerbagel.github.io/siteisuppose/dance/">Dance Fucker</a>
+				</div>
+				<div class="butt">
+					<a href="https://gerbagel.github.io/siteisuppose/ducked/">DuckTales</a>
+				</div>
+				<div class="butt">
+					<a href="https://gerbagel.github.io/siteisuppose/thanos/">Thanos Yes</a>
+        		</div>
+            	<div class="butt">
+            	    <a href="http://gerbagel.github.io/siteisuppose/index/">Index</a>
+            	</div>
+			</div>
+			<div id="container">
+				<h2>Go to any other page to continue browsing</h2>
+			</div>
+		</div>
+	</body>
+</html>
