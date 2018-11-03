@@ -33,6 +33,10 @@ a {
 	transition: text-decoration 0.3s, color 0.3s;
 }
 
+a .list {
+	width: auto;
+}
+
 a:visited {
 	color: blue;
 	text-decoration: none;
