@@ -33,10 +33,6 @@ a {
 	transition: text-decoration 0.3s, color 0.3s;
 }
 
-a .list {
-	width: auto;
-}
-
 a:visited {
 	color: blue;
 	text-decoration: none;
@@ -51,6 +47,7 @@ a:hover {
 .list {
     margin: 20px;
 	width: auto;
+	border: solid black 1px;
 }
 
 .list a {
