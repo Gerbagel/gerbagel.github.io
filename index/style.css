@@ -47,7 +47,7 @@ a:hover {
 .list {
     margin: 20px;
 	width: auto;
-	border: solid black 1px;
+	display: inline-block;
 }
 
 .list a {
