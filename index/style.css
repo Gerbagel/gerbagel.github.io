@@ -117,6 +117,7 @@ a:hover {
 		width: 360px;
 		height: 365px;
 		overflow: auto;
+		margin-left: 0px;
 	}
 	
 	body {
