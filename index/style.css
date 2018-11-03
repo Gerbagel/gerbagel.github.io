@@ -88,6 +88,7 @@ body {
 	}
 	
 	#container {
+		margin-top: 0px;
 		width: 360px;
 		height: 365px;
 		overflow: auto;
