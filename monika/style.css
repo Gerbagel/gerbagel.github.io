@@ -28,6 +28,7 @@ body {
     height: 100%;
     width: 185px;
     float: left;
+	margin-left: 20px;
 }
 
 #container {
