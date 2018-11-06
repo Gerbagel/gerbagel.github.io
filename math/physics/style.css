@@ -33,6 +33,7 @@ input[type=text]:focus {
 	padding-left: 8px;
 	padding-right: 8px;
 	margin-bottom: 8px;
+	box-shadow: 0px 0px 4px;
 }
 
 input[type=submit] {
