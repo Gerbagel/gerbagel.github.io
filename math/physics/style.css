@@ -28,12 +28,12 @@ input[type=submit] {
 	height: 30px;
 	padding: 5px;
 	font-size: 20px;
-	background-color: rgb(155,155,155);
+	background-color: darkgray;
 }
 
 input[type=submit]:hover {
 	cursor: pointer;
-	background-color: rgb(140,140,140);
+	background-color: rgb(155,155,155);
 }
 
 #header {
