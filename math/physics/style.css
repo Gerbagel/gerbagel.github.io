@@ -20,6 +20,7 @@ input[type=text] {
 	height: 35px;
 	font-size: 25px;
 	margin-bottom: 10px;
+	transition: background-color 0.2s ease-in-out;
 }
 
 input[type=submit] {
@@ -34,6 +35,10 @@ input[type=submit] {
 input[type=submit]:hover {
 	cursor: pointer;
 	background-color: rgb(155,155,155);
+}
+
+input[type=submit]:active {
+	background-color: rgb(140,140,140);
 }
 
 #header {
