@@ -15,12 +15,24 @@ input[type=text] {
 	border: none;
 	border-radius: 20px;
 	width: 46%;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 10px;
+	padding-right: 10px;
 	height: 35px;
 	font-size: 25px;
 	margin-bottom: 10px;
-	transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, padding-left 0.2s ease-in-out, padding-right 0.2s ease-in-out, margin-bottom 0.2s ease-in-out;
+}
+
+input[type=text]:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+input[type=text]:focus {
+	outline: none;
+	border: 2px rgba(0,0,0,0) solid;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-bottom: 8px;
 }
 
 input[type=submit] {
@@ -39,6 +51,10 @@ input[type=submit]:hover {
 
 input[type=submit]:active {
 	background-color: rgb(140,140,140);
+}
+
+input[type=submit]:focus {
+	outline: none;
 }
 
 #header {
