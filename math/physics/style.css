@@ -34,6 +34,8 @@ input[type=text]:focus {
 	padding-right: 8px;
 	margin-bottom: 8px;
 	box-shadow: 0px 0px 4px;
+	background-color: rgba(255,255,255,0.3);
+
 }
 
 input[type=submit] {
@@ -43,6 +45,7 @@ input[type=submit] {
 	padding: 5px;
 	font-size: 20px;
 	background-color: darkgray;
+	transition: background-color 0.2s ease-in-out;
 }
 
 input[type=submit]:hover {
