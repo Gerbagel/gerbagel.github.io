@@ -25,8 +25,15 @@ input[type=text] {
 input[type=submit] {
 	border: 1px solid black;
 	border-radius: 20px;
-	height: 20px;
+	height: 30px;
 	padding: 5px;
+	font-size: 20px;
+	background-color: rgb(155,155,155);
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+	background-color: rgb(140,1401,140);
 }
 
 #header {
