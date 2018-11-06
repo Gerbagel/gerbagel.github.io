@@ -17,9 +17,16 @@ input[type=text] {
 	width: 46%;
 	padding-left: 2%;
 	padding-right: 2%;
-	height: 40px;
-	font-size: 30px;
+	height: 35px;
+	font-size: 25px;
 	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	border: 1px solid black;
+	border-radius: 20px;
+	height: 20px;
+	padding: 5px;
 }
 
 #header {
