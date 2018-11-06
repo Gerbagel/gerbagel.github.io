@@ -10,11 +10,12 @@ body {
 input[type=text] {
 	border: none;
 	border-radius: 20px;
-	width: 40%;
-	padding-left: 5%;
-	padding-right: 5%;
-	height: 20px;
-	font-size: 15px;
+	width: 46%;
+	padding-left: 2%;
+	padding-right: 2%;
+	height: 40px;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
 #header {
