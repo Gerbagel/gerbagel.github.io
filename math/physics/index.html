@@ -54,21 +54,23 @@
 			</div>
 		</div>
 		<div id="container">
-			<h2>PQ formula</h2>
-			<input id="p" type="text" />
-			<input id="q" type="text" />
+			<h2>(mv<sup>2</sup>)/2</h2>
+			<input id="m" type="text" />
+			<input id="v" type="text" />
 			<input type="submit" onClick="pq();"><br />
-			x1 = <p id="result1"></p>
-			x2 = <p id="result2"></p>
+			Answer = <p id="result"></p>
 			<script>
-				function pq() {
-					var q = parseInt(document.getElementById('q').value);
-					var p = parseInt(document.getElementById('p').value);
-					var d = p * p / 4 - q;
-					var result1 = -p/2 + Math.sqrt(d);
-					var result2 = -p/2 - Math.sqrt(d);
-					document.getElementById('result1').innerHTML = result1;
-					document.getElementById('result2').innerHTML = result2;
+				function mv2() {
+					var m = document.getElementById("m").value;
+					var v = document.getElementById("v").value;
+					var mv = m * v;
+					var mv2 = mv ** 2;
+					var answ = mv2 / 2;
+					document.getElementById("result").innerHTML = answ;
+				}
+				
+				function mgh() {
+					
 				}
 			</script>
 		</div>
