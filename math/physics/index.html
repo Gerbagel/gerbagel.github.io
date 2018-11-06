@@ -54,8 +54,23 @@
 			</div>
 		</div>
 		<div id="container">
-			<a href="matte/">Mathematics 3C (One formula available)</a>
-			<a href="physcs/">Physics 1</a>
+			<h2>PQ formula</h2>
+			<input id="p" type="text" />
+			<input id="q" type="text" />
+			<input type="submit" onClick="pq();"><br />
+			x1 = <p id="result1"></p>
+			x2 = <p id="result2"></p>
+			<script>
+				function pq() {
+					var q = parseInt(document.getElementById('q').value);
+					var p = parseInt(document.getElementById('p').value);
+					var d = p * p / 4 - q;
+					var result1 = -p/2 + Math.sqrt(d);
+					var result2 = -p/2 - Math.sqrt(d);
+					document.getElementById('result1').innerHTML = result1;
+					document.getElementById('result2').innerHTML = result2;
+				}
+			</script>
 		</div>
 	</div>
 </body>
