@@ -115,7 +115,7 @@ a:hover {
 	#container {
 		margin-top: 0px;
 		width: 360px;
-		height: calc(100vw-100px);
+		min-height: calc(100vw-100px);
 		overflow: auto;
 		margin-left: 0px;
 	}
