@@ -110,7 +110,8 @@ a:hover {
 @media only screen and (max-width: 360px) {
 	#header {
 		text-align: center;
-		position: fixed;
+		position: sticky;
+		top: 0;
 		z-index: 99;
 	}
 	
