@@ -39,26 +39,19 @@ body {
 }
 
 #container iframe {
-	margin-left: 60px!important;
     border: none;
     height: 576px;
     width: 1024px;
 }
 
 .butt {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .butt a {
-	position: static;
-	display: flex;
-	justify-content: center;
-	align-content: center;
     padding: 15px;
     border-radius: 30px;
     border: solid 1px black;
-    width: 185px;
-    height: 19px;
 	text-decoration: none;
 	transition: padding 0.3s, background-color 0.3s;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -76,6 +69,8 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     text-decoration: underline;
 	padding: 20px;
+	height: auto;
+	width: auto;
 	transition: padding 0.3s, background-color 0.3s;
 }
 
