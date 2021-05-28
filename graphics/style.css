@@ -1,0 +1,17 @@
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	background: gray;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+main {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
