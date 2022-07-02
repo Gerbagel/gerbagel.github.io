@@ -1,17 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&display=swap');
 body {
 	margin: 0px;
 	font-family: 'Open Sans', sans-serif;
-	background: gray;
+	background: #808080;
 }
 
 header {
 	width: 100%;
 	height: 100px;
 	text-align: center;
+	font-weight: bolder;
 }
 
 main {
 	width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+p {
+	font-family: 'Roboto Mono', monospace;
+}
+
+button {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.card {
+	width: 20%;
+	height: auto;
+	padding: 20px;
+	background-color: #616161;
+	color: white;
+	border-radius: 4px;
+}
+
+.card img {
+	height: auto;
+	width: 100%;
+}
+
+.duoButton {
+	font-size: 17px;
+    width: 100%;
+    height: 50px;
+    background-color: #2f89e2;
+    color: white;
+    box-shadow: 0px 10px 0px #2670bb;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+	text-decoration: none;
+    text-align: center;
+    text-justify: center;
+}
+
+.duoButton:hover {
+    cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.duoButton:active {
+    box-shadow: 0px 5px 0px #3b78b6;
+    margin-top: 5px;
+	margin-bottom: -5px
 }
