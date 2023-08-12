@@ -27,13 +27,20 @@ button {
 	font-weight: bold;
 }
 
+article {
+	display: flex;
+	justify-content: baseline;
+}
+
 .card {
+	display: block;
 	width: 20%;
 	height: auto;
 	padding: 20px;
 	background-color: #616161;
 	color: white;
 	border-radius: 4px;
+	margin-right: 20px;
 }
 
 .card img {
@@ -65,5 +72,5 @@ button {
 .duoButton:active {
     box-shadow: 0px 5px 0px #3b78b6;
     margin-top: 5px;
-	margin-bottom: -5px
+	margin-bottom: -5px;
 }
