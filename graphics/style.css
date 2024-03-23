@@ -33,10 +33,14 @@ article {
 }
 
 .card {
-	display: block;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 20%;
 	height: auto;
 	padding: 20px;
+	padding-bottom: 220px;
 	background-color: #616161;
 	color: white;
 	border-radius: 4px;
@@ -46,6 +50,12 @@ article {
 .card img {
 	height: auto;
 	width: 100%;
+}
+
+.card-bottom {
+	position: absolute;
+	bottom: 20px;
+	width: 85%;
 }
 
 .duoButton {
